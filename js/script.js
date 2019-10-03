@@ -72,6 +72,11 @@ botaoAdd.addEventListener("click", function (evento) {
             }
         })
 
+        tarefa.addEventListener("dblclick", function() {
+            tarefa.classList.remove("feito")
+            tarefa.setAttribute("contentEditable", true);
+        })
+
         btnExcluir.addEventListener("click", function (evento) {
             evento.preventDefault();
             lista.removeChild(novoItem);
@@ -104,4 +109,8 @@ botaoAdd.addEventListener("click", function (evento) {
             dragging = null;
         })
     }
+ 
+
+
 });
+
