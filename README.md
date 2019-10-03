@@ -1,5 +1,7 @@
 # Projeto-To-do-List
 Projeto da semana 8 - {Reprograma}
+
+
 Diretrizes do Projeto 2 - To Do List
 O projeto será em dupla. Consiste em criar uma "lista de tarefas" para organizar e priorizar tarefas. Tem como objetivo exercitar os conhecimento adquiridos em HTML, CSS, Javascript e lógica.
 
@@ -22,3 +24,6 @@ Fase 4
 Não permitir que um item seja adicionado se só tiver espaços e nenhum texto no input
 Fase 5
 Permitir drag and drop pra reorganizar a lista
+
+
+Alunas: Adriana, Telma e Priscilla.
