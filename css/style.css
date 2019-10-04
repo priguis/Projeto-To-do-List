@@ -5,6 +5,12 @@ Cores #e0c3fc, #8ec5fc, #ba7af8 <--- */
     background-image: linear-gradient(to right, #e0c3fc, #8ec5fc);
     font-family: 'Open Sans', sans-serif;
  }
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
 
  .titulo {
     background-color: white;
@@ -98,7 +104,7 @@ span {
     width: 159px;
     border-radius: 15px;
 } 
-@media (min-width: 520px){
+/* @media (min-width: 520px){
   .container {   
     display: flex;
     flex-direction: column;
@@ -116,9 +122,9 @@ span {
     margin-left: 1px;
  }
 
-}
+} */
 
-@media (min-width: 425px){
+/* @media (min-width: 425px){
     .container {
         display: flex;
         flex-direction: column;
@@ -132,10 +138,10 @@ span {
             color: white;
             font-size: 16px;
             margin-left: 66px;
-}
+} */
 
 
-@media (min-width: 768px){
+@media (min-width: 767px max-height: 1049px){
 
     .container {
         display: flex;
@@ -185,7 +191,7 @@ span {
         padding: 0 3px;
     }
 }
-@media (min-width: 1049px) {
+/* @media (min-width: 1049px) {
 
     .botao {
     background-color: #ba7af8;
@@ -211,7 +217,7 @@ span {
     #novaTarefa {
         background-color: white;
         width: 500px;
-        /* height: 100px; */
+        height: 100px;
         margin: 0 5px;
         border: 1px solid #dcdcdc;
     }
@@ -219,11 +225,11 @@ span {
     padding: 0 3px;
     margin-left: 4px;
     /* justify-content: space-evenly; */
-    height: 43px;
+    /* height: 43px;
     width: 498px;
-    }
+    } */
     
-}
+/* } */ 
 /* @media (min-width: 1440px) {
 
     .botao {
