@@ -2,7 +2,7 @@
 Cores #e0c3fc, #8ec5fc, #ba7af8 <--- */
   
  body {
-    background-image: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    background-image: linear-gradient(to right, #e0c3fc, #8ec5fc,#ba7af8);
     font-family: 'Open Sans', sans-serif;
  }
  .container {
@@ -32,6 +32,7 @@ h1{
     height: 83px;
     margin: 3px 10px;
     border: 2px solid #dcdcdc;
+    text-align: center;
 
 }
 .botao {
