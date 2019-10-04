@@ -20,6 +20,7 @@
       <div id="formularioDetarefas">
         <form action="">
           <input type="text" id="novaTarefa" placeholder="Informe Nova Tarefa">
+          <input type="text" id="novaCategoria" placeholder="Informe Categoria">
       </div>
 
       <div>
@@ -27,12 +28,15 @@
         <p class="meu-erro"></p>
       </div>
       <!-- Evento para receber o valor do formulário pelo usuário -->
-      <div id="lista" draggable="true" ondragstart="dragstart_handler(event);"> </div>
+      <div id="lista" draggable="true"> 
+      </div>
       <div id="bnt">
 
         <button class="bnt1">Selecionar Tudo</button>
 
         <button class="bnt2">Excluir Todos</button>
+
+        <button class="bnt3"> Remover Completos </button>
 
       </div>
 

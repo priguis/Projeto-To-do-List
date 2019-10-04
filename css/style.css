@@ -38,11 +38,11 @@ h1{
     color: white;
     margin: 0px;
     background-color: #ba7af8;
-    padding: 24px -59px;
+    padding: 39px -13px;
     height: 53px;
-    width: 158px;
+    width: 270px;
     border-radius: 15px;
-    margin-left: 70px;
+    margin-left: 12px;
 }
 
 .novoItem {
@@ -104,6 +104,32 @@ span {
     width: 159px;
     border-radius: 15px;
 } 
+.bnt3 {
+    color: white;
+    margin: 0px;
+    background-color: #ba7af8;
+    padding: 0px;
+    height: 47px;
+    width: 159px;
+    border-radius: 15px;
+}
+
+#formularioDetarefas {
+    display: flex;
+    flex-direction: column;
+}
+
+#novaCategoria {
+    font-size: 12px;
+    text-align: center;
+    color: purple;
+    background-color: white;
+    width: 271px;
+    height: 83px;
+    margin: 3px 10px;
+    border: 2px solid #dcdcdc;
+}
+
 /* @media (min-width: 520px){
   .container {   
     display: flex;
